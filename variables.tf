@@ -28,12 +28,12 @@ variable "controller_count" {
 
 variable "worker_count" {
   type    = number
-  default = 3
+  default = 1
 }
 
 variable "controller_plan" {
   type    = string
-  default = "8192 MB RAM,160 GB SSD,4.00 TB BW"
+  default = "4096 MB RAM,160 GB SSD,4.00 TB BW"
 }
 
 variable "worker_plan" {
