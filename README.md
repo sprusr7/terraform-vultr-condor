@@ -28,10 +28,10 @@ variable "cluster_api_key" {
 }
 
 module "cluster" {
-  source          = "git::https://github.com/vultr/condor.git"
+  source          = "git::https://github.com/sprusr7/terraform-vultr-condor"
 
   cluster_api_key          = var.cluster_api_key                       
-  cluster_name             = "cluster-name"
+  cluster_name             = "staging"
 }
 ```
 3. Deploy the cluster
